@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Kredit</title>
+        <link rel="stylesheet" href="reset.css" text="text/css">
+        <link rel="stylesheet" href="home.css" text="text/css">
+        <link rel="stylesheet" href="generic.css" text="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="jQuery.js"></script>
+    </head> 
+
+
+    <!--Body-->
+    <body id="total" style="display: none">
+
+        <!--Background-->
+        <div class="common background" id="background">
+            <div class="common image">
+                <img src="Images/home.jpg" alt="">
+            </div>
+        </div>
+ 
+        <!--Header-->   
+        <div class="common wrap">
+            <div class="common logobackground">
+                <a href="#"><img src="Images/kreditlogo.png" alt="" class="logo"></a>
+            </div>
+            <header class="common header">
+                <a href="header/about.html" class="about">About</a> 
+                <a href="header/faq.html" class="faq">FAQ</a> 
+                <a href="header/login.html" class="login">Login</a>
+            </header>
+        </div> 
+
+        <!--Subtitle-->
+        <div class="common subheader">
+            <div>Prepare yourself for financial success with Kredit</div>
+        </div>
+        
+        <!--Overview-->
+        <div class="common mainbody"> 
+                <div class="common overview fontsize1">
+                    <samp class="green fontsize2 bold green-background"> What is Kredit?</samp> <br><br><br>
+                    <samp class="subline silver" id="id">Kredit is an online platform designed to teach teenagers and young adults how to manage their finances.  </samp> <br><br>
+                </div>
+                <div class="common buttonbody">
+                    <div class="line"></div>
+                    <div class="common buttons link">
+                        <a href="#noname" class="class2 grey" id="budgetClick" onclick="budgetClick()">Budget</a>
+                        <a href="#noname" class="class9" id="creditClick" onclick="creditClick()">Credit</a>
+                        <a href="#noname" class="class10" id="loanClick" onclick="loanClick()">Loan</a>
+                        <a href="#noname" class="class11" id="investmentClick" onclick="investmentClick()">Investment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <!--Budget--> 
+        <div class="common budgetbackground" id="budget">
+            <div class="common image image1">
+                <img src="Images/budget.jpg" alt="Kredit">
+            </div>
+            <div class="common box1"><br><br>
+                <a href="Budget/budget.html" class="bold budget">Budget</a><br><br><br><br><br><br><br>
+                <div class="common text-box">
+                    <div class="fontsize1 silver"> 
+                        Learn the tips, tricks, and the art of budgeting. Don&#39;t know where to start? Don&#39;t worry, we&#39;ve got you covered.</samp><br><br><br>
+                    </div>
+
+                    <div>
+                        <a href="Budget/budget.html" class="bold fontsize3 learn-more">Learn More</a>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+        </div> 
+ 
+        <!--Credit-->
+        <div class="common creditbackground" style="display: none" id="credit">
+            <div class="common image image2">
+                <img src="Images/credit.jpg" alt="Kredit">
+            </div>
+            <div class="common box2"><br><br>
+                <a href="Credit/credit.html" class="bold credit">Credit</a><br><br><br><br><br><br><br>
+                <div class="common text-box">
+                    <div class="fontsize1 silver"> 
+                        Credit can be a scary concept if you don't know how to manage it. Let's make it work for you instead.</samp><br><br><br>
+                    </div>
+
+                    <div>
+                        <a href="Budget/budget.html" class="bold fontsize3 learn-more">Learn More</a>
+                    </div>
+                </div></div>
+            </div>
+        </div> 
+
+        <!--Loan-->
+        <div class="common loanbackground" style="display: none" id="loan">
+            <div class="common image image1">
+                <img src="Images/loan.jpg" alt="Kredit">
+            </div>
+            <div class="common box1"><br><br>
+                <a class="bold loan">Loan</a><br><br><br><br><br><br><br>
+                <div class="common text-box">
+                    <div class="fontsize1 silver"> 
+                        Student loans, car loans, mortgages... It can all be very confusing. It's time to set the record straight</samp><br><br><br>
+                    </div>
+
+                    <div>
+                        <a class="bold fontsize3 learn-more">Learn More</a>
+                    </div>
+                </div></div>
+            </div>
+        </div> 
+
+        <!--Investment-->
+        <div class="common investmentbackground" style="display: none" id="investment">
+            <div class="common image image2">
+                <img src="Images/investment.jpg" alt="Kredit">
+            </div>
+            <div class="common box2"><br><br>
+                <a class="bold investment">Investment</a><br><br><br><br><br><br><br>
+                <div class="common text-box">
+                    <div class="fontsize1 silver"> 
+                        Want to learn how to make money with the money that you already have? We have all the info you need</samp><br><br><br>
+                    </div>
+
+                    <div>
+                        <a class="bold fontsize3 learn-more">Learn More</a>
+                    </div>
+                </div></div>
+            </div>
+        </div>  
+ 
+        <!--Footer-->
+        <footer class="common footer" id="footer">
+            <div class="common greenfooter">
+                <div class="common footerwords silver">
+                    <a href="" class="right-footer">Twitter</a><br>
+                    <a href="" class="right-footer">Facebook</a><br>
+                    <a href="" class="right-footer">Instagram</a><br>
+                </div>
+            </div>
+            <div class="common whitefooter">
+                <div class="common footerwords">
+                    <a href="header/about.html" class="left-footer">About</a><br>
+                    <a href="Header/faq.html" class="left-footer">FAQ</a><br>
+                    <a href="Header/login.html" class="left-footer">Login</a>
+                </div>
+            </div>
+        </footer> 
+    </body>
+<html>

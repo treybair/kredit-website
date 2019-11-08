@@ -1,0 +1,277 @@
+body {
+    background-color: rgb(253, 253, 253);
+}
+
+.greenbackground {
+    top: 0vw;
+    left: 0vw;
+    right: 0vw;
+    height: 30vw;
+    background-color: rgb(3, 36, 0);
+}
+
+.overview {
+    top: 15vw;
+    left: 5vw;
+    right: 30vw;
+    color: white;
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+.textbox {
+    top: 0vw;
+    left: 10vw;
+    right: 10vw;
+    height: 70vw;
+}
+
+.innerbox {
+    margin: 3vw;
+    color: rgb(150, 150, 150);
+    font-size: 1.6vw;
+    line-height: 2.35vw;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    top: 180vw;
+    left: 0vw;
+    right: 0vw;
+    height: 20vw;
+}
+
+.footer2 {
+    background-color: rgb(235, 235, 235);
+    top: 130vw;
+    left: 0vw;
+    right: 0vw;
+    height: 20vw;
+}
+
+.greenfooter {
+    top: 0vw;
+    right: 0vw;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(238, 238, 238)
+}
+
+.whitefooter {
+    top: 0vw;
+    left: 0vw;
+    height: 100%;
+    width: 60%;
+    background-color: rgb(247, 247, 247);
+}
+
+.footerwords {
+    left: 10vw;
+    top: 3vw;
+    font-size: 1.5vw;
+}
+
+.darkgreen {
+    color: rgb(3, 36, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.middlegreen {
+    color: rgb(9, 94, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lightgreen {
+    color: rgb(15, 141, 4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lightergreen {
+    color: rgb(20, 196, 4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+.popup {
+    height: 36vw;
+    left: 3vw;
+    right: 3vw;
+    top: 43vw;
+    background-color: white;
+    border: .20vw;
+    border-color: rgb(177,177,177);
+    border-style: solid;
+}
+
+.subheader{
+    top: 20vw;
+    left: 5vw;
+    right: 10vw;
+    font-size: 4vw;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.white-backdrop {
+    background-color: white;
+    top: 30vw;
+    left: 0vw;
+    right: 0vw;
+    height: 70vw;
+}
+
+a.nextbutton {
+    right: 0vw;
+    padding: 1.5vw 3vw;
+    justify-content: center;
+    font-size: 1.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(10, 80, 1);
+    color: white;
+    border: none;
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(left, rgba(7,55,1,1) 25%, rgb(8, 70, 1) 50%,rgb(9, 85, 1) 75%,rgb(10, 100, 1 ) 100%);
+  }
+
+  a.nextbutton:hover {
+    right: 0vw;
+    padding: 1.5vw 3vw;
+    justify-content: center;
+    font-size: 1.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(7, 53, 1);
+    color: white;
+    border: none;
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(left, rgba(7,70,1,1) 25%, rgb(8, 85, 1) 50%,rgb(9, 100, 1) 75%,rgb(10, 115, 1 ) 100%);
+  }
+
+.right {
+    right: 2vw;
+}
+
+a.backbutton {
+    left: 0vw;
+    padding: 1.5vw 3vw;
+    justify-content: center;
+    font-size: 1.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(10, 80, 1);
+    color: white;
+    border: none;
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(left, rgba(7,55,1,1) 25%, rgb(8, 70, 1) 50%,rgb(9, 85, 1) 75%,rgb(10, 100, 1 ) 100%);
+  }
+
+  a.backbutton:hover {
+    left: 0vw;
+    padding: 1.5vw 3vw;
+    justify-content: center;
+    font-size: 1.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(7, 53, 1);
+    color: white;
+    border: none;
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(left, rgba(7,70,1,1) 25%, rgb(8, 85, 1) 50%,rgb(9, 100, 1) 75%,rgb(10, 115, 1 ) 100%);
+  }
+
+.right {
+    right: 0vw;
+}
+
+.left {
+    left: 0vw;
+}
+
+p{
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(7,55,1,1), rgb(12, 129, 2));
+    background-image: -webkit-linear-gradient(left,  rgba(7,55,1,1), rgba(12, 129, 2));
+    background-image: -moz-linear-gradient(left,  rgba(7,55,1,1), rgba(12, 129, 21));
+    background-image: -o-linear-gradient(left,  rgba(7,55,1,1), rgba(12, 129, 2));
+    background-image: linear-gradient(to right, rgba(7,55,1,1), rgba(12, 129, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a.class1 {
+    text-decoration: none;
+    color: white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+}
+
+a.class1:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: -.2vw;
+    content: "";
+    display: block;
+    height: .2vw;
+    left: 2.25vw;
+    position: absolute;
+    background-color: rgb(218,218,218);
+    transition: 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0vw;
+  }
+
+  a.class1:hover:after { 
+    width: 4.5vw; 
+    left: 2.25vw; 
+  }
+
+
+  a.class7 {
+    text-decoration: none;
+    color: white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+}
+
+a.class7:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: -.2vw;
+    content: "";
+    display: block;
+    height: .2vw;
+    left: 11.7vw;
+    position: absolute;
+    background-color: rgb(218,218,218);
+    transition: 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0vw;
+  }
+
+  a.class7:hover:after { 
+    width: 2.8vw; 
+    left: 11.7vw; 
+  }
+
+  a.class8 {
+    text-decoration: none;
+    color: white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+}
+
+a.class8:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: -.2vw;
+    content: "";
+    display: block;
+    height: .2vw;
+    left: 19.5vw;
+    position: absolute;
+    background-color: rgb(218,218,218);
+    transition: 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0vw;
+  }
+
+  a.class8:hover:after { 
+    width: 4vw; 
+    left: 19.5vw; 
+  }
